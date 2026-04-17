@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   color: #222;
 }
 
@@ -23,8 +23,8 @@ body {
 
 /* Buttons  */
 .btn {
-  color: #FFFFFF;
-  background-color: #30B868;
+  color: #ffffff;
+  background-color: #30b868;
   border: none;
   padding: 12px 24px;
   border-radius: 6px;
@@ -64,7 +64,7 @@ body {
 
 .btn-2:hover {
   background-color: rgba(255, 255, 255, 0.1);
-  border-color: #30B868;
+  border-color: #30b868;
   color: #fff;
   transform: translateY(-2px);
 }
@@ -113,12 +113,12 @@ body {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #30B86890;
+  background-color: #30b86890;
   transition: width 0.3s ease;
 }
 
 .menu a:hover {
-  color: #30B868;
+  color: #30b868;
 }
 
 .menu a:hover::after {
@@ -127,7 +127,9 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.35)), url('./images/hero-bg.png');
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.35)),
+    url('./images/hero-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -168,7 +170,7 @@ body {
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 14px;
-  color: #30B868;
+  color: #30b868;
   display: inline-block;
 }
 
@@ -178,13 +180,13 @@ body {
   gap: 8px;
   padding: 6px 14px;
   background: rgba(255, 255, 255, 1);
-  color: #30B868;
+  color: #30b868;
   font-size: 14px;
   font-weight: 600;
   border-radius: 999px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   cursor: pointer;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 /* green dot */
@@ -275,10 +277,10 @@ body {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 30px #30B86820;
-  border-bottom: 3px solid #30B868;
-  border-left: 1px solid #30B868;
-  border-right: 1px solid #30B868;
+  box-shadow: 0 12px 30px #30b86820;
+  border-bottom: 3px solid #30b868;
+  border-left: 1px solid #30b868;
+  border-right: 1px solid #30b868;
 }
 
 .card h4 {
@@ -294,7 +296,7 @@ body {
 }
 
 .icon {
-  background-color: #F95555;
+  background-color: #f95555;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -380,7 +382,7 @@ body {
 
 /* Early access section  */
 .early-access {
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 2px 120px 120px;
   display: flex;
   justify-content: center;
